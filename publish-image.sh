@@ -2,5 +2,5 @@
 
 today=$(date +%Y-%m-%d)
 name="bmvantunes/alpine-node-chromium"
-docker build . -t "$name:$today" -t "$name:latest"
-docker push "$name"
+sudo docker build . -t "$name:$today" -t "$name:latest"
+sudo docker push "$name"
